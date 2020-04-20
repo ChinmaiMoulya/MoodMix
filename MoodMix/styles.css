@@ -1,0 +1,36 @@
+body{
+  text-align: center;
+  background-image: url(https://wallpaperaccess.com/full/84248.png);
+  background-position: fixed;
+  padding: 3% 15%;
+}
+
+/* main */
+
+.title{
+  font-size: 3rem;
+  color: #fff; 
+  font-family: 'Monoton', cursive;
+}
+/* banner */
+.quote{
+  padding-top: 10%;
+  color: #fff;
+  font-family: 'Shadows Into Light', cursive;
+}
+.card{
+  background-color: inherit;
+  padding: 5px;
+  border-style: none;
+}
+.card-title{
+  color: #fff;
+}
+.b{
+  color: #fff;
+}
+
+.image{
+  width: 12.5rem;
+  height: 12.5rem;
+}

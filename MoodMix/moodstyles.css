@@ -1,0 +1,33 @@
+body{
+  text-align: center;
+  background-image: url(https://wallpaperaccess.com/full/84248.png);
+  background-position: fixed;
+  padding: 6%;
+}
+p{
+  color: #fff;
+  font-family: 'Monoton', cursive;
+  font-size: 2rem;
+  text-decoration: none;
+  text-align: left;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+h2{
+  color: #fff;
+  font-size: 2rem;
+}
+img{
+  padding-top: 2rem;
+  width: inherit;
+  height: inherit;
+}
+h4{
+  color: #fff;
+  padding-bottom: 1rem;
+}

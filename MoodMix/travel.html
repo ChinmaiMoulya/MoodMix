@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="moodstyles.css">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+  </head>
+  <body>
+
+    <section>
+      <a href="file:///D:/Chinmai-Web%20Development/MoodMix/index.html">
+        <p class="animated slideInDown">MOOD MIX</p>
+      </a>
+    </section>
+
+    <section>
+      <div class="row">
+        <div class="col-md-4 moodtitle animated slideInLeft slow">
+          <img src="images/travel.png" alt="">
+        </div>
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-6 songlist">
+          <h4 class=" animated slideInUp slow">Choose a track</h4>
+          <button type="button" class="btn btn-outline-warning btn-lg btn-block animated slideInUp slow" onclick="playSong('travel',0)">Track 1</button>
+          <button type="button" class="btn btn-outline-warning btn-lg btn-block animated slideInUp slow" onclick="playSong('travel',1)">Track 2</button>
+          <button type="button" class="btn btn-outline-warning btn-lg btn-block animated slideInUp slow" onclick="playSong('travel',2)">Track 3</button>
+          <button type="button" class="btn btn-outline-warning btn-lg btn-block animated slideInUp slow" onclick="playSong('travel',3)">Track 4</button>
+          <button type="button" class="btn btn-outline-warning btn-lg btn-block animated slideInUp slow" onclick="playSong('travel',4)">Track 5</button>
+        </div>
+      </div>
+    </section>
+    <section id="moods">
+      <h2 class="animated fadeIn quote">Choose your mood!</h2>
+      <div class="card">
+        <div class="row">
+          <div class="col-lg-4 card-body">
+            <a href="file:///D:/Chinmai-Web%20Development/MoodMix/happy.html">
+              <img src="images/happy.png" class="image animated slideInUp slow" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 card-body">
+            <a href="file:///D:/Chinmai-Web%20Development/MoodMix/love.html">
+              <img src="images/love.png" class="image animated slideInUp slow" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 card-body">
+            <a href="file:///D:/Chinmai-Web%20Development/MoodMix/sad.html">
+              <img src="images/sad.png" class="image animated slideInUp slow" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row">
+          <div class="col-lg-4 card-body">
+            <a href="file:///D:/Chinmai-Web%20Development/MoodMix/chill.html">
+              <img src="images/chill.png" class="image animated slideInUp slow" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 card-body">
+            <a href="file:///D:/Chinmai-Web%20Development/MoodMix/travel.html">
+              <img src="images/travel.png" class="image animated slideInUp slow" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 card-body">
+            <a href="file:///D:/Chinmai-Web%20Development/MoodMix/lonely.html">
+              <img src="images/lonely.png" class="image animated slideInUp slow" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
